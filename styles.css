@@ -1,0 +1,105 @@
+/* Reset & Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* To avoid navbar overlap */
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://al-morshedy.com/wp-content/uploads/2020/04/zahra-01-1.jpg') no-repeat center center/cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+}
+
+
+.map-section {
+    width: 100%;
+    padding: 50px 0;
+    background: #fff; /* لون الخلفية متناسق مع الموقع */
+    text-align: center;
+}
+
+.map-container {
+    width: 100%;
+    height: 500px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+/* Projects Section */
+.projects {
+    padding: 60px 0;
+}
+
+.project-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact {
+    background: #343a40;
+    color: white;
+    padding: 70px 0;
+}
+.social-icons a { 
+    margin: 150px; 
+    font-size: 20px; 
+    color: rgb(0, 0, 0); 
+    transition: 0.1s;
+}
+
+/* Footer */
+.footer {
+    font-size: 0.9rem;
+}
